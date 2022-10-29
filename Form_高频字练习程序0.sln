@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form_高频字练习程序0", "Form_高频字练习程序0\Form_高频字练习程序0.csproj", "{59BAED43-77AD-4DAB-960F-3F404F6F5D55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59BAED43-77AD-4DAB-960F-3F404F6F5D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BAED43-77AD-4DAB-960F-3F404F6F5D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BAED43-77AD-4DAB-960F-3F404F6F5D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BAED43-77AD-4DAB-960F-3F404F6F5D55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28263738-946A-4EAB-B82F-904F1BC260CC}
+	EndGlobalSection
+EndGlobal
