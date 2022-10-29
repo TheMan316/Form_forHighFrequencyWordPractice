@@ -30,7 +30,7 @@
             this.选项ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.说明ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.选择默认文本ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.选择现代汉语文本ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.选择二十五史常用字文本ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lable_error = new System.Windows.Forms.Label();
@@ -42,6 +42,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.选择现代口语常用字ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -95,31 +96,32 @@
             // 说明ToolStripMenuItem
             // 
             this.说明ToolStripMenuItem.Name = "说明ToolStripMenuItem";
-            this.说明ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.说明ToolStripMenuItem.Size = new System.Drawing.Size(122, 26);
             this.说明ToolStripMenuItem.Text = "说明";
             this.说明ToolStripMenuItem.Click += new System.EventHandler(this.说明ToolStripMenuItem_Click);
             // 
             // 设置ToolStripMenuItem
             // 
             this.设置ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.选择默认文本ToolStripMenuItem,
-            this.选择二十五史常用字文本ToolStripMenuItem});
+            this.选择现代汉语文本ToolStripMenuItem,
+            this.选择二十五史常用字文本ToolStripMenuItem,
+            this.选择现代口语常用字ToolStripMenuItem});
             this.设置ToolStripMenuItem.Name = "设置ToolStripMenuItem";
             this.设置ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
             this.设置ToolStripMenuItem.Text = "设置";
             // 
-            // 选择默认文本ToolStripMenuItem
+            // 选择现代汉语文本ToolStripMenuItem
             // 
-            this.选择默认文本ToolStripMenuItem.Name = "选择默认文本ToolStripMenuItem";
-            this.选择默认文本ToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
-            this.选择默认文本ToolStripMenuItem.Text = "选择默认常用字文本";
-            this.选择默认文本ToolStripMenuItem.Click += new System.EventHandler(this.选择默认文本ToolStripMenuItem_Click);
+            this.选择现代汉语文本ToolStripMenuItem.Name = "选择现代汉语文本ToolStripMenuItem";
+            this.选择现代汉语文本ToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
+            this.选择现代汉语文本ToolStripMenuItem.Text = "选择现代汉语常用字";
+            this.选择现代汉语文本ToolStripMenuItem.Click += new System.EventHandler(this.选择默认文本ToolStripMenuItem_Click);
             // 
             // 选择二十五史常用字文本ToolStripMenuItem
             // 
             this.选择二十五史常用字文本ToolStripMenuItem.Name = "选择二十五史常用字文本ToolStripMenuItem";
-            this.选择二十五史常用字文本ToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
-            this.选择二十五史常用字文本ToolStripMenuItem.Text = "选择二十五史常用字文本";
+            this.选择二十五史常用字文本ToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
+            this.选择二十五史常用字文本ToolStripMenuItem.Text = "选择古代汉语常用字";
             this.选择二十五史常用字文本ToolStripMenuItem.Click += new System.EventHandler(this.选择二十五史常用字文本ToolStripMenuItem_Click);
             // 
             // textBox1
@@ -219,6 +221,13 @@
             this.label5.Size = new System.Drawing.Size(0, 15);
             this.label5.TabIndex = 13;
             // 
+            // 选择现代口语常用字ToolStripMenuItem
+            // 
+            this.选择现代口语常用字ToolStripMenuItem.Name = "选择现代口语常用字ToolStripMenuItem";
+            this.选择现代口语常用字ToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
+            this.选择现代口语常用字ToolStripMenuItem.Text = "选择现代口语常用字";
+            this.选择现代口语常用字ToolStripMenuItem.Click += new System.EventHandler(this.选择现代口语常用字ToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -268,10 +277,11 @@
         private System.Windows.Forms.ToolStripMenuItem 说明ToolStripMenuItem;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolStripMenuItem 设置ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 选择默认文本ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 选择现代汉语文本ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 选择二十五史常用字文本ToolStripMenuItem;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ToolStripMenuItem 选择现代口语常用字ToolStripMenuItem;
     }
 }
 

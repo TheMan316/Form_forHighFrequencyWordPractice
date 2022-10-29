@@ -21,7 +21,7 @@ namespace Form_高频字练习程序0 {
         /// </summary>
         private const int COUNT = 100;
         private int _index_currentWord = 0;
-        private string _pathOfWordsTxt = "常用汉字前5000.txt";
+        private string _pathOfWordsTxt = "现代汉语常用字前5000.txt";
         private string _pathOfPracticeTxt = "practice.txt";
         /// <summary>
         /// 当前选中的汉字列表
@@ -253,10 +253,12 @@ namespace Form_高频字练习程序0 {
         }
 
         private void 说明ToolStripMenuItem_Click(object sender, EventArgs e) {
-            MessageBox.Show("现代汉语字频(选自各种类别的13本热门网络小说）：\n字数\t覆盖面（ %）\n100\t45.425\n500\t76.885\n1000\t88.578\n1500\t94.002\n" +
+            MessageBox.Show("现代汉语常用字字频(选自各种类别的13本热门网络小说）：\n字数\t覆盖面（ %）\n100\t45.425\n500\t76.885\n1000\t88.578\n1500\t94.002\n" +
                 "2000\t96.839\n3000\t99.230\n4000\t99.860\n5000\t99.982" +
-                "\n古代汉语字频(选自二十四史+清史稿）：\n字数\t覆盖面（ %）\n100\t36.525\n500\t70.826\n1000\t85.740\n1500\t92.215\n" +
-                "2000\t95.418\n3000\t98.325\n4000\t99.336\n5000\t99.719\n本程序作者：桂南鄙士");
+                "\n古代汉语常用字字频(选自二十四史+清史稿）：\n字数\t覆盖面（ %）\n100\t36.525\n500\t70.826\n1000\t85.740\n1500\t92.215\n" +
+                "2000\t95.418\n3000\t98.325\n4000\t99.336\n5000\t99.719" +
+                "\n口语常用字字频(选自本人经常呆的一个6年qq群）：\n字数\t覆盖面（ %）\n100\t49.306\n500\t81.949\n1000\t92.782\n1500\t96.625\n" +
+                "2000\t98.329\n3000\t99.556\n本程序作者：桂南鄙士");
         }
 
         private void button1_Click_1(object sender, EventArgs e) {
@@ -264,14 +266,19 @@ namespace Form_高频字练习程序0 {
         }
 
         private void 选择默认文本ToolStripMenuItem_Click(object sender, EventArgs e) {
-            _pathOfWordsTxt = "常用汉字前5000.txt";
+            _pathOfWordsTxt = "现代汉语常用字前5000.txt";
             Load_wordsTxt();
         }
 
         private void 选择二十五史常用字文本ToolStripMenuItem_Click(object sender, EventArgs e) {
-            _pathOfWordsTxt = "25史字频前5000.txt";
+            _pathOfWordsTxt = "古代汉语常用字前5000.txt";
             Load_wordsTxt();
 
+        }
+
+        private void 选择现代口语常用字ToolStripMenuItem_Click(object sender, EventArgs e) {
+            _pathOfWordsTxt = "现代口语常用字前3000.txt";
+            Load_wordsTxt();
         }
     }
 }
