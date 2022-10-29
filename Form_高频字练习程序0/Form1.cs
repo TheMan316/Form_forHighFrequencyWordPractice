@@ -187,7 +187,7 @@ namespace Form_高频字练习程序0 {
                 return false;
             }
         }
-        private void Updata_practiceTimes() {
+        private void Update_practiceTimes() {
             _practiceTimes++;
             lbl_practiceTimes.Text = _practiceTimes.ToString();
         }
@@ -197,7 +197,7 @@ namespace Form_高频字练习程序0 {
                 lable_index_currentWord.Text = (_index_currentWord + 1).ToString();
                 Increase_index_currentWord();
                 Draw_wordToPnl();
-                Updata_practiceTimes();
+                Update_practiceTimes();
 
             }
             else {
